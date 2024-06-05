@@ -1,0 +1,25 @@
+.tool {
+    width: 274px;
+    height: 178px;
+    border: solid 1px var(--text-color);
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 2rem;
+}
+
+.icon {
+    margin-top: 2rem;
+}
+
+.title {
+    font-size: 1rem;
+}
+
+.value {
+    margin-top: -1rem;
+    color: #5BC8FF;
+}
+

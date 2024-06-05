@@ -1,0 +1,176 @@
+.main {
+  text-align: center;
+  scroll-snap-type: y mandatory;
+  &.proximity {
+    scroll-snap-type: y proximity;
+  }
+}
+
+.start {
+  scroll-snap-align: start;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.start h1 {
+  font-size: 50px;
+  color: #0582CA;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social_icons {
+  width: 45px;
+  height: 45px;
+}
+
+.about {
+  scroll-snap-align: start;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items:center;
+  text-align: start;
+  justify-content: center;
+}
+
+.aboutme {
+  display: flex;
+}
+
+.name {
+  font-size: 50px;
+  line-height: 1;
+}
+.title {
+  margin-top: -3rem;
+  font-size: 24px;
+}
+
+.description {
+  line-height: 1.5;
+}
+
+.aboutzach {
+  width: 482px;
+  margin-left: 4rem;
+}
+
+.tools {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.toollist {
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 820px) {
+  .aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile {
+    width: 250px;
+    height: 249px;
+  }
+
+  .aboutzach {
+    margin-left: 0;
+    align-items: center;
+  }
+
+  .description {
+    text-align: justify;
+  }
+
+  .tools {
+    display: flex;
+    flex-direction: column;
+  }
+  .tools h1 {
+    order: -1
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .profile {
+    width: 200px;
+    height: 199px;
+  }
+
+  .tools {
+    height: auto;
+  }
+
+  .toollist {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .intro h1 {
+    font-size: 30px;
+  }
+  .social_icons {
+    width: 24px;
+    height: 24px;
+  }
+
+  .profile {
+    width: 200px;
+    height: 199px;
+  }
+  .name {
+    font-size: 30px;
+  }
+
+  .title {
+    font-size:15px;
+    margin-top: -1rem;
+  }
+
+  .aboutzach {
+    width: 300px;
+  }
+
+  .tools {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .tools h1 {
+    order: -1
+  }
+  .toollist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+}
+

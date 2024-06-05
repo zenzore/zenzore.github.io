@@ -1,0 +1,16 @@
+:root {
+  --text-color: #0582CA;
+}
+
+html {
+  scroll-behavior: smooth;
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+body {
+  background-image: linear-gradient(to left top, #051923, #0e131d, #100c15, #0b050a, #000000);
+  color: var(--text-color);
+  margin: 0;
+  
+}
